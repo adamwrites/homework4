@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quiz</title>
+
+    <!-- Link bootstrap and css -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Title container -->
+  <div class="container title">
+
+      <div class="row justify-content-md-center">
+
+          <div class="col-md-10">
+            <h1 class="title">
+                Coding Quiz!
+            </h1>
+          </div>
+          <div class="col-md-2">
+            <p class="timer"></p>
+          </div>
+
+      </div>
+
+      <div class="row justify-content-md-left">
+
+          <div class="col-md-10">
+            <p class="intro">
+                Test your coding knowledge with these programming based questions! Click the start quiz button below to begin.
+            </p>
+          </div>
+
+      </div>
+      <div class="row justify-content-md-left">
+
+          <div class="col-md-10">
+            <h2 class="currentQuestion">
+                
+            </h2>
+          </div>
+
+      </div>
+
+      <div class="row justify-content-md-left answerContainer">
+
+          <div class="col-md-10">
+            <button class="answer1">
+            Answer 1
+            </button>
+
+            <button class="answer2">
+            Answer 2
+            </button>
+
+            <button class="answer3">
+            Answer 3
+            </button>
+
+            <button class="answer4">
+            Answer 4
+            </button>
+          </div>
+
+      </div>
+      <div class="row justify-content-md-left">
+
+          <div class="col-md-10">
+            <button id="start">Start Quiz</button>
+            <button id="submit"> Submit Score </button>
+            <input type="text" id="initials">
+          </div>
+
+
+
+      </div>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>

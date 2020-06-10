@@ -1,0 +1,43 @@
+p {
+    padding-top: 20px;
+    font-size: 24px;
+}
+
+button {
+    background-color: blueviolet;
+    border: solid 1px black;
+}
+
+h2 {
+    padding-top: 20px;
+}
+
+.title  {
+    margin-top: 20px;
+}
+
+.answer1,.answer2,.answer3,.answer4 {
+    display: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#start {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#submit {
+    display: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#initials {
+    display: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
